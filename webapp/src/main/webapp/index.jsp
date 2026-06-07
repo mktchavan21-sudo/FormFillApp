@@ -1,9 +1,15 @@
 <form action="action_page.php">
   <div class="container">
     <h1>Welcome!! Mahesh DevOps Student Registration Form!!</h1>
+    <h2>Hosted on AWS EC2 using Tomcat and Jenkins</h2>
+
     <p>Please fill in this form for registration!!!</p>
     <hr>
-    <br>  
+    <br>
+
+    <label for="name"><b>Full Name</b></label>
+    <input type="text" placeholder="Enter Full Name" name="name" id="name" required>
+    <br>
 
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
@@ -16,6 +22,7 @@
     <label for="psw-repeat"><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
     <br>
+
     <button type="submit" class="registerbtn">Register</button>
   </div>
 

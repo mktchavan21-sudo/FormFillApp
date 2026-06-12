@@ -1,11 +1,33 @@
 <form action="action_page.php">
   <div class="container">
     <h1>Welcome!! Mahesh DevOps Student Registration Form!!</h1>
-    <h2>Hosted on AWS EC2 using Tomcat and Jenkins</h2>
+    <h2>Hosted on AWS EC2 using Tomcat, Docker, Jenkins, Ansible & Docker Hub</h2>
 
-    <p>Please fill in this form for registration!!!</p>
-    <hr>
-    <br>
+```
+<h3 style="color:green;">
+  CI/CD Pipeline Test Successful - Version 2.0
+</h3>
+
+<h3 style="color:blue;">
+  Updated on: 11-June-2026
+</h3>
+
+<p>
+  This application is automatically deployed using:
+</p>
+
+<ul>
+  <li>Git</li>
+  <li>Jenkins</li>
+  <li>Maven</li>
+  <li>Ansible</li>
+  <li>Docker</li>
+  <li>Docker Hub</li>
+  <li>AWS EC2</li>
+</ul>
+
+<hr>
+<br>
 
     <label for="name"><b>Full Name</b></label>
     <input type="text" placeholder="Enter Full Name" name="name" id="name" required>

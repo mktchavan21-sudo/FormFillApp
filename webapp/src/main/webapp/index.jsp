@@ -1,33 +1,51 @@
 <form action="action_page.php">
   <div class="container">
     <h1>Welcome!! Mahesh DevOps Student Registration Form!!</h1>
-    <h2>Hosted on AWS EC2 using Tomcat, Docker, Jenkins, Ansible & Docker Hub</h2>
 
-```
-<h3 style="color:green;">
-  CI/CD Pipeline Test Successful - Version 2.0
-</h3>
+    <h2>Hosted on AWS EKS Kubernetes Cluster</h2>
 
-<h3 style="color:blue;">
-  Updated on: 11-June-2026
-</h3>
+    <h3 style="color:green;">
+      CI/CD Pipeline Test Successful - Version 3.0
+    </h3>
 
-<p>
-  This application is automatically deployed using:
-</p>
+    <h3 style="color:blue;">
+      Updated on: 13-June-2026
+    </h3>
 
-<ul>
-  <li>Git</li>
-  <li>Jenkins</li>
-  <li>Maven</li>
-  <li>Ansible</li>
-  <li>Docker</li>
-  <li>Docker Hub</li>
-  <li>AWS EC2</li>
-</ul>
+    <h3 style="color:red;">
+      Kubernetes Deployment Automated Successfully
+    </h3>
 
-<hr>
-<br>
+    <p>
+      This application is automatically deployed using:
+    </p>
+
+    <ul>
+      <li>Git Server</li>
+      <li>Jenkins</li>
+      <li>Maven</li>
+      <li>Ansible</li>
+      <li>Docker</li>
+      <li>Docker Hub</li>
+      <li>Kubernetes (EKS)</li>
+      <li>AWS Cloud</li>
+    </ul>
+
+    <hr>
+
+    <h2>DevOps Project Implemented By Mahesh Kumar Chavan</h2>
+
+    <h3>
+      End-to-End CI/CD Pipeline Working Successfully
+    </h3>
+
+    <p>
+      Any code committed to Git is automatically built, containerized,
+      pushed to Docker Hub, and deployed to Kubernetes using Ansible.
+    </p>
+
+    <hr>
+    <br>
 
     <label for="name"><b>Full Name</b></label>
     <input type="text" placeholder="Enter Full Name" name="name" id="name" required>
@@ -46,9 +64,5 @@
     <br>
 
     <button type="submit" class="registerbtn">Register</button>
-  </div>
-
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 </form>

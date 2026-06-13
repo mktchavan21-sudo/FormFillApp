@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>Welcome!! priyanka and Nahusha DevOps Student Registration Form!!</h1>
+    <h1>Welcome!! priyanka and Nahusha and Mahesh DevOps Student Registration Form!!</h1>
 
     <h2>Hosted on AWS EKS Kubernetes Cluster</h2>
 
